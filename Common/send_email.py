@@ -4,10 +4,10 @@ __author__ = 'Helen'
 description:邮件发送最新的测试报告
 '''
 import os,smtplib,os.path
-from config import Parameter as Pr
+from Omg.config import Parameter as Pr
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-from Common import log
+from Omg.Common import log
 
 
 class send_email:

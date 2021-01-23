@@ -1,7 +1,7 @@
 # coding:utf-8
 
 
-from Common.Base_Page import BasePage
+from Omg.Common.Base_Page import BasePage
 from selenium.webdriver.common.by import By
 
 class Login_Page(BasePage):

@@ -2,7 +2,7 @@
 
 
 from selenium import webdriver
-from Page import login_page
+from Omg.Page import login_page
 import unittest,time
 class Test_Login(unittest.TestCase):
     @classmethod
